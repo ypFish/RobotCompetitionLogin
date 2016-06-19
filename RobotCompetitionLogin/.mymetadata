@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="RobotCompetitionLogin"
+  id="myeclipse.1362463051359"
+  context-root="/RobotCompetitionLogin"
+  j2ee-spec="5.0"
+  archive="RobotCompetitionLogin.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

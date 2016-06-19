@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doRegister</servlet-name>
+    <servlet-class>com.yupeng.servlet.doRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doRegisterSelectSubject</servlet-name>
+    <servlet-class>com.yupeng.servlet.doRegisterSelectSubject</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doRegisterTop</servlet-name>
+    <servlet-class>com.yupeng.servlet.doRegisterTop</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doRegisterBottom</servlet-name>
+    <servlet-class>com.yupeng.servlet.doRegisterBottom</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamLogin</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamSelectTeam</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamSelectTeam</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamUpdateTeam</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamUpdateTeam</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamSelectStudent</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamSelectStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamUpdateStudent</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamUpdateStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamSelectNews</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamSelectNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamSelectOneNews</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamSelectOneNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamSelectMaterial</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamSelectMaterial</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAdminSelectTeam</servlet-name>
+    <servlet-class>com.yupeng.servlet.doAdminSelectTeam</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAdminSelectOneTeam</servlet-name>
+    <servlet-class>com.yupeng.servlet.doAdminSelectOneTeam</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAdminSelectStudent</servlet-name>
+    <servlet-class>com.yupeng.servlet.doAdminSelectStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAdminSelectResult</servlet-name>
+    <servlet-class>com.yupeng.servlet.doAdminSelectResult</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doAdminUpdateResult</servlet-name>
+    <servlet-class>com.yupeng.servlet.doAdminUpdateResult</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doPublicSelectNews</servlet-name>
+    <servlet-class>com.yupeng.servlet.doPublicSelectNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doPublicSelectOneNews</servlet-name>
+    <servlet-class>com.yupeng.servlet.doPublicSelectOneNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doPublicSelectSubject</servlet-name>
+    <servlet-class>com.yupeng.servlet.doPublicSelectSubject</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doPublicSelectOneSubject</servlet-name>
+    <servlet-class>com.yupeng.servlet.doPublicSelectOneSubject</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doPublicSelectMaterial</servlet-name>
+    <servlet-class>com.yupeng.servlet.doPublicSelectMaterial</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doPublicDownloadMaterial</servlet-name>
+    <servlet-class>com.yupeng.servlet.doPublicDownloadMaterial</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doTeamDownloadMaterial</servlet-name>
+    <servlet-class>com.yupeng.servlet.doTeamDownloadMaterial</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>doRegister</servlet-name>
+    <url-pattern>/doRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doRegisterSelectSubject</servlet-name>
+    <url-pattern>/doRegisterSelectSubject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doRegisterTop</servlet-name>
+    <url-pattern>/doRegisterTop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doRegisterBottom</servlet-name>
+    <url-pattern>/doRegisterBottom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamLogin</servlet-name>
+    <url-pattern>/doTeamLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamSelectTeam</servlet-name>
+    <url-pattern>/doTeamSelectTeam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamUpdateTeam</servlet-name>
+    <url-pattern>/doTeamUpdateTeam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamSelectStudent</servlet-name>
+    <url-pattern>/doTeamSelectStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamUpdateStudent</servlet-name>
+    <url-pattern>/doTeamUpdateStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamSelectNews</servlet-name>
+    <url-pattern>/doTeamSelectNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamSelectOneNews</servlet-name>
+    <url-pattern>/doTeamSelectOneNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamSelectMaterial</servlet-name>
+    <url-pattern>/doTeamSelectMaterial</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAdminSelectTeam</servlet-name>
+    <url-pattern>/doAdminSelectTeam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAdminSelectOneTeam</servlet-name>
+    <url-pattern>/doAdminSelectOneTeam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAdminSelectStudent</servlet-name>
+    <url-pattern>/doAdminSelectStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAdminSelectResult</servlet-name>
+    <url-pattern>/doAdminSelectResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doAdminUpdateResult</servlet-name>
+    <url-pattern>/doAdminUpdateResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doPublicSelectNews</servlet-name>
+    <url-pattern>/doPublicSelectNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doPublicSelectOneNews</servlet-name>
+    <url-pattern>/doPublicSelectOneNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doPublicSelectSubject</servlet-name>
+    <url-pattern>/doPublicSelectSubject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doPublicSelectOneSubject</servlet-name>
+    <url-pattern>/doPublicSelectOneSubject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doPublicSelectMaterial</servlet-name>
+    <url-pattern>/doPublicSelectMaterial</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doPublicDownloadMaterial</servlet-name>
+    <url-pattern>/doPublicDownloadMaterial</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doTeamDownloadMaterial</servlet-name>
+    <url-pattern>/doTeamDownloadMaterial</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+   <mime-mapping>
+    <extension>doc</extension>
+    <mime-type>application/vnd.ms-word</mime-type>
+  </mime-mapping>
+</web-app>
